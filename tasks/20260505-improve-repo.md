@@ -7,10 +7,11 @@
 ## Current work
 - Documented the repo improvement request in `user_requests/20260505-improve-repo/README.md`
 - Updated root docs and `init/README.md` to reference repo improvement workflow
+- Confirmed `workflow/README.md` treats repo improvements like any other request
 - Added `specs/repo-improvement-process.md` for internal repo improvement guidance
 - Refined `user_specs/repo-improvements.md` with acceptance criteria
 
 ## Next steps
-- Confirm that the repo improvement workflow is clear and easy to follow
-- Review active docs for remaining inconsistencies or missing guidance
+- Review active docs for any remaining inconsistencies or missing guidance
+- Verify the repo improvement workflow in `user_requests/`, `tasks/`, and `user_specs/`
 - Commit the changes and close the task when complete

@@ -7,6 +7,13 @@ Use this workspace to intake requests, coordinate the team, track work clearly, 
 - `communication_protocol/README.md` — messaging style and tokens
 - `workflow/README.md` — request handling and handoff process
 
+## Repo improvement workflow
+- Create improvement requests in `user_requests/YYYYMMDD-<topic>/README.md`.
+- Track active work in `tasks/YYYYMMDD-<topic>.md`.
+- Capture user-facing requirements in `user_specs/`.
+- Record internal decisions and process details in `specs/`.
+- Archive completed work in `archive/`.
+
 ## Key folders
 - `git_managment/` — git workflow and commit guidance
 - `user_requests/` — live user-facing request intake and follow-up, including repo improvement requests
