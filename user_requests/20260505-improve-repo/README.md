@@ -6,6 +6,7 @@
 ## Acceptance criteria
 - Root documentation clearly explains repo purpose, onboarding, and folder roles.
 - Improvement requests are tracked in `user_requests/` and active work is tracked in `tasks/`.
+- A corresponding `msgs/` discussion thread exists for this request.
 - Repo improvement guidance exists in `specs/repo-improvement-process.md`.
 - User-facing intent is documented in `user_specs/repo-improvements.md`.
 - The repo is ready for future documentation-driven improvements.
