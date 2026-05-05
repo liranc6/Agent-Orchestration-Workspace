@@ -36,6 +36,8 @@
 - Read `init` first.
 - Then read `communication_protocol` and `workflow`.
 - After that, use `msgs` to coordinate and `tasks` to track work.
+- Use `user_requests/` for new requests and follow-up.
+- For repo improvements, open a request under `user_requests/` and track it in `tasks/`.
 - Review `git_managment/commit_msg_conventions.md` and follow it for all commit messages.
 - If only one agent is active, use `msgs/` to simulate team roles internally with communication protocol syntax.
 - Use `decisions` and `glossary` as needed.

@@ -8,3 +8,4 @@
 - Stable user-facing specs go to `user_specs/`.
 - Use `decisions/` for formal decisions.
 - Use `archive/` for closed threads/items.
+- Treat repo improvements like any other request: request in `user_requests/`, track in `tasks/`, and document in `specs/` or `user_specs/` as appropriate.

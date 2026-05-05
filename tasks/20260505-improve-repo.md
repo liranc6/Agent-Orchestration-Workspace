@@ -5,12 +5,12 @@
 - owner: developer
 
 ## Current work
-- Renamed `comunication_protocol/` to `communication_protocol/`
-- Added missing `specs/` folder and `specs/README.md`
-- Updated root docs and onboarding docs to reference the corrected folder names
-- Added clearer repo guidance and folder definitions
+- Documented the repo improvement request in `user_requests/20260505-improve-repo/README.md`
+- Updated root docs and `init/README.md` to reference repo improvement workflow
+- Added `specs/repo-improvement-process.md` for internal repo improvement guidance
+- Refined `user_specs/repo-improvements.md` with acceptance criteria
 
 ## Next steps
-- Review any remaining active docs for old folder references
-- Add a user-facing improvement spec in `user_specs/`
-- Confirm if additional structural refactors are needed
+- Confirm that the repo improvement workflow is clear and easy to follow
+- Review active docs for remaining inconsistencies or missing guidance
+- Commit the changes and close the task when complete

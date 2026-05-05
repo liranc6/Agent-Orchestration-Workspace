@@ -1,7 +1,7 @@
 # Improve repo
 
 - request: improve this repo as a developer tool.
-- user: wants repo to be easier to use and better structured.
+- user: single-agent team wants the repository to be easier to use, better structured, and self-documenting.
 
 ## Notes
 - `msgs/` internal team can discuss improvement options.
@@ -9,11 +9,16 @@
 - `Q?` if need clarification from user.
 
 ## Status
-- `task: review repo structure`
+- `task: review repo structure and update documentation`
 - `WIP`
 
 ## Progress
-- Renamed `comunication_protocol/` to `communication_protocol/`
-- Added missing `specs/` folder and onboarding guidance
-- Created `tasks/20260505-improve-repo.md` and `user_specs/repo-improvements.md`
-- Updated root docs and glossary to match the new structure
+- Documented the current repo improvement request and tracking workflow.
+- Updated root onboarding and workflow docs to reference repo improvement tracking.
+- Added a repo improvement process spec in `specs/repo-improvement-process.md`.
+- Created `tasks/20260505-improve-repo.md` and refined `user_specs/repo-improvements.md`.
+
+## Next steps
+- Finalize the repository improvement process spec.
+- Confirm that `user_requests/`, `tasks/`, and `user_specs/` are clearly described.
+- Commit and close the request when the repo improvement workflow is complete
