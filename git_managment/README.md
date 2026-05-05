@@ -24,6 +24,7 @@
 - After fixing a bug or addressing a review point.
 - After updating tests or documentation.
 - Before switching contexts or starting a new work item.
+- See `commit_frequency.md` for additional commit rhythm guidance.
 
 ## Commit message rules
 - Follow `commit_msg_conventions.md` for the team commit message standard.
