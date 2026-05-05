@@ -2,6 +2,7 @@
 
 - Purpose: onboarding starting point for the developer tool.
 - This repo is built for a developer who manages a virtual AI team.
+- It serves as a workspace the developer can add to their environment to orchestrate agents and deliver tasks through the team.
 - Use this file first.
 
 ## Folders

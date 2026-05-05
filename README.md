@@ -1,5 +1,6 @@
 # Expenses App
 This repo is a living developer tool for a single developer operating a virtual AI team.
+It is designed as an agent orchestration workspace a developer can add to their own environment and use to instruct the agent team to deliver tasks.
 Use this workspace to intake requests, coordinate the team, track work clearly, and improve the repo itself.
 
 ## Start here
