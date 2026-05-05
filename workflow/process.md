@@ -6,6 +6,7 @@
 - If unclear, stop and clarify.
 - Reply in `user_requests/` for user-facing questions.
 - Start a `msgs/` thread for internal team alignment for every new request.
+- Keep the thread active and append status updates as the team works, not only at the end.
 
 2. Clarify mission
 - `PM`, `Ambiguity Analyst`, `Senior Agent Dev`, `Senior Dev`, `UX` review.

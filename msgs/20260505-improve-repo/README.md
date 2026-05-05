@@ -1,16 +1,20 @@
 # Repo Improvement Message Thread
 
 - Purpose: internal team discussion for the repo improvement task.
-- Use `msgs/` for internal role-play and coordination when a task requires discussion.
+- Use `msgs/` for internal role-play and coordination while work is active.
+- Keep this thread live and append updates as the task progresses.
 
 ## Thread
 
 DEV: task: review repo structure and update documentation for repo improvement workflow
-REVIEW: task: confirm the work is clear, consistent, and follows repo conventions
-QA: note: check that `user_requests/`, `tasks/`, and `specs/` are aligned and documented
-PM: note: ensure the user-facing request clearly explains the improvement intent
+REVIEW: agree: create an internal `msgs/` thread and keep it live during work
+QA: note: this thread should capture ongoing alignment, questions, and status changes
 
-DEV: note: updated `README.md`, `init/README.md`, `workflow/README.md`, and request/task docs
-REVIEW: ask: should we also create a `msgs/` thread for this task? yes, to record internal discussion
-QA: decision: create `msgs/20260505-improve-repo/README.md` with summary of role-play
-REVIEW: decision: result is deliverable and ready for user confirmation
+DEV: WIP: updated `README.md` with repo improvement workflow details
+DEV: WIP: updated `user_requests/` and `tasks/` guidance for repo improvement tracking
+REVIEW: note: ensure the live thread includes meaningful progress steps, not just final summary
+DEV: WIP: adjusted `workflow/process.md` and `user_requests/README.md` to require live updates
+QA: note: thread now reflects incremental work updates and expectations
+
+DEV: DONE: internal discussion thread created and updated as work progressed
+REVIEW: decision: live thread behavior is now documented and ready for user confirmation

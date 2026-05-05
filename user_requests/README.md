@@ -14,6 +14,7 @@
 ## Notes
 - `msgs/` is internal team chat only.
 - For every new request, create a corresponding `msgs/YYYYMMDD-<topic>/README.md` thread.
+- Keep each `msgs/` thread active and append updates while the team works, not only at the end.
 - Use `msgs/` in addition to `user_requests/` for internal clarification and alignment.
 - Use `@role` or `@name` for direct attention in a request thread.
 - When a request is agreed, move or copy final spec to `user_specs/`.
