@@ -8,6 +8,7 @@
 - [Junior Dev Programmer](junior-dev-programmer.md)
 - [Senior / Expert / Principal Dev Programmer](senior-principal-dev-programmer.md)
 - [Senior Product](senior-product.md)
+- [Expert Product Manager](expert-product-manager.md)
 - [Expert Code Reviewer](expert-code-reviewer.md)
 - [Expert Agent Reviewer](expert-agent-reviewer.md)
 - [Expert Manager](expert-manager.md)
@@ -15,12 +16,16 @@
 - [Planner](planner.md)
 - [Orchestrator](orchestrator.md)
 - [Supervisor](supervisor.md)
+- [State Tracker](state-tracker.md)
+- [State Manager](state-manager.md)
+- [Validator](validator.md)
 - [Evaluator](evaluator.md)
 - [Expert QA](expert-qa.md)
 - [Expert Ambiguity Analyst](expert-ambiguity-analyst.md)
 - [Expert UX/Product Designer](expert-ux-product-designer.md)
 - [Senior Agent Developer](senior-agent-developer.md)
 - [Expert DevOps / Infrastructure Engineer](expert-devops-infrastructure-engineer.md)
+- [Role Matrix](roles-matrix.md)
 
 ## Code review ownership
 - Expect the Expert Code Reviewer to handle all code reviews and merge guidance.

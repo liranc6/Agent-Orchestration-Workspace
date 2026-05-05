@@ -5,6 +5,7 @@ Use this workspace to intake requests, coordinate the team, track work clearly, 
 
 ## Start here
 - `init/README.md` — onboarding and doc reading order
+- `QUICKSTART.md` — quick workspace setup and example flow
 - `communication_protocol/README.md` — messaging style and tokens
 - `workflow/README.md` — request handling and handoff process
 

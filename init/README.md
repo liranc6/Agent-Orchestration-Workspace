@@ -35,8 +35,9 @@
 
 ## Quick start
 - Read `init` first.
-- Then read `communication_protocol` and `workflow`.
+- Then read `QUICKSTART.md`, `communication_protocol`, and `workflow`.
 - After that, use `msgs` to coordinate and `tasks` to track work.
+- Use `templates/` for consistent requests, tasks, message threads, and evaluations.
 - Use `user_requests/` for new requests and follow-up.
 - For every new request, also create a `msgs/YYYYMMDD-<topic>/README.md` internal discussion thread.
 - For repo improvements, open a request under `user_requests/` and track it in `tasks/`.
