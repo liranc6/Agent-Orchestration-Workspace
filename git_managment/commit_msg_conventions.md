@@ -43,6 +43,13 @@ git commit -m "Type: Short summary"&#x20;
   If a change in one file requires adjustments in another to maintain compatibility or alignment, explicitly mention this. For example:
   "Modified `fileB.py` to align with changes made in `fileA.py`."
 
+## Commit Frequency
+
+- Commit after each coherent unit of work: one feature, one fix, one refactor, or one documentation update.
+- Keep commits small, focused, and logically grouped.
+- When actively working, commit at least once per day and whenever a change is complete enough to stand on its own.
+- For repo improvement agents, commit after each significant doc or process update so progress is easy to review.
+
 ## Example Commit
 
 git commit -m "Refactor: Split input loss landscape evaluation into modular functions"&#x20;
