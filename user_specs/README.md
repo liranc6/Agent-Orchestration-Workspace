@@ -12,4 +12,4 @@
 ## Notes
 - Publish stable, user-facing specs here.
 - Use `user_requests/` for live request and clarification.
-- Use `comunication_protocol/` and `workflow/` for process, not this folder.
+- Use `communication_protocol/` and `workflow/` for process, not this folder.

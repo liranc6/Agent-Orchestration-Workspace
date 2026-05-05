@@ -3,7 +3,7 @@
 - `init/` = onboarding start point
 - `msgs/` = live chat only
 - `workflow/` = process rules and handoff steps
-- `comunication_protocol/` = approved shorthand and format
+- `communication_protocol/` = approved shorthand and format
 - `tasks/` = actual work items and status
 - `decisions/` = formal decisions
 - `archive/` = closed items
@@ -11,6 +11,7 @@
 - `dev_team/` = roles and skills
 - `user_requests/` = user request intake and user-team chat
 - `user_specs/` = user-facing product specs
+- `specs/` = detailed technical and implementation documentation
 - `WIP` = work in progress
 - `BLOCK` = blocked
 - `Q?` = question

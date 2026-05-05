@@ -15,3 +15,7 @@
 - [Expert UX/Product Designer](expert-ux-product-designer.md)
 - [Senior Agent Developer](senior-agent-developer.md)
 - [Expert DevOps / Infrastructure Engineer](expert-devops-infrastructure-engineer.md)
+
+## Code review ownership
+- Expect the Expert Code Reviewer to handle all code reviews and merge guidance.
+- Tag or assign this role on PRs when review is needed.

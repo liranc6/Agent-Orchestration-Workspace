@@ -17,4 +17,6 @@
 - Start thread: `task: <short>`.
 - Update with `WIP`, `Q?`, `BLOCK`, `DONE`, `ACK`.
 - If thread is >2 lines, create a doc and link it.
-- Link `[[../comunication_protocol/README]]` for rules.
+- Use the syntax in `[[../communication_protocol/format.md]]` for role-prefixed messages.
+- Link `[[../communication_protocol/README]]` for rules.
+- See `single-agent-role-play.md` for a single-agent role-play example.

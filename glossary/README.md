@@ -2,4 +2,4 @@
 
 - Purpose: keep terms, acronyms, shorthand aligned.
 - Use `glossary/terms.md` for list.
-- Link from `comunication_protocol/README`.
+- Link from `communication_protocol/README`.

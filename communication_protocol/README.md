@@ -9,7 +9,7 @@
 - `user_specs/` = user-facing product specs
 - `msgs/` = live team chat only
 - `workflow/` = process rules and handoff steps
-- `comunication_protocol/` = approved shorthand and format
+- `communication_protocol/` = approved shorthand and format
 - `tasks/` = actual work items and status
 - `decisions/` = formal decisions and reasons
 - `archive/` = closed or old threads/docs
@@ -22,6 +22,7 @@
 - If a doc grows beyond 2 lines, link it, do not expand chat.
 - Team communication supports Obsidian-like folder structure and sub-threads.
 - Use `@role` or `@name` when you need direct attention.
+- If one agent is acting as multiple roles, keep internal messages in `msgs/` and use role-prefixed syntax.
 
 ## No redundancy
 - Avoid filler words and articles.
