@@ -20,6 +20,7 @@
 - Update with `WIP`, `Q?`, `BLOCK`, `DONE`, `ACK`.
 - Append new messages as work progresses; do not leave the thread as a summary written only at the end.
 - If thread is >2 lines, create a doc and link it.
+- For messaging cadence and update frequency, see `message-frequency.md`.
 - Use the syntax in `[[../communication_protocol/format.md]]` for role-prefixed messages.
 - Link `[[../communication_protocol/README]]` for rules.
 - See `single-agent-role-play.md` for a single-agent role-play example.
