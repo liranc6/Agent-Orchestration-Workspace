@@ -7,6 +7,8 @@
 - Support sub-threads by using dedicated dirs for each request and thread.
 - Use `@role` or `@name` for direct attention in messages.
 - New member start with `../init/README.md`.
+- For agent-driven requests, explicitly simulate reviewer feedback and back-and-forth communication.
+- Include the Senior Agent Developer and Expert Agent Reviewer roles when the request is about agents or repo process.
 
 ## Structure
 - One thread per request/issue.

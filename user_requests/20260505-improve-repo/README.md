@@ -7,6 +7,7 @@
 - `msgs/` internal team can discuss improvement options.
 - `user_specs/` can hold agreed repo changes.
 - `Q?` if need clarification from user.
+- `REVIEW` role should decide if the result is deliverable or if more work is needed.
 
 ## Status
 - `task: review repo structure and update documentation`

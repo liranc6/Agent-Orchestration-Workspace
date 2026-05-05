@@ -9,6 +9,7 @@
 - [Senior / Expert / Principal Dev Programmer](senior-principal-dev-programmer.md)
 - [Senior Product](senior-product.md)
 - [Expert Code Reviewer](expert-code-reviewer.md)
+- [Expert Agent Reviewer](expert-agent-reviewer.md)
 - [Expert Manager](expert-manager.md)
 - [Expert QA](expert-qa.md)
 - [Expert Ambiguity Analyst](expert-ambiguity-analyst.md)
