@@ -13,15 +13,14 @@
 
 ## Status
 - `task: review repo structure and update documentation`
-- `WIP`
+- `DONE`
 
 ## Progress
 - Created and documented the current repo improvement request.
-- Updated root `README.md` and `init/README.md` with repo improvement workflow guidance.
-- Confirmed `workflow/README.md` treats repo improvements like any other request.
-- Added `specs/repo-improvement-process.md` and clarified `user_specs/repo-improvements.md`.
+- Updated root `README.md`, `init/README.md`, and internal references to use `git_management/`.
+- Confirmed repo improvement workflow is clearly described in `workflow/README.md` and `specs/repo-improvement-process.md`.
+- Added `CONTRIBUTING.md` to make the repo easier for new contributors.
+- Completed the documentation and structure improvements needed for this task.
 
 ## Next steps
-- Validate that the repo improvement workflow is clear and easy to follow.
-- Polish any remaining root or onboarding documentation gaps.
-- Finalize task status and archive the request once complete.
+- Archive this completed request and task in `archive/`.

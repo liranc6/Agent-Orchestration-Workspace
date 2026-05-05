@@ -14,8 +14,11 @@ Use this workspace to intake requests, coordinate the team, track work clearly, 
 - Record internal decisions and process details in `specs/`.
 - Archive completed work in `archive/`.
 
+## Helpful files
+- `CONTRIBUTING.md` — contributor guidance for repo workflow, request handling, and git usage
+
 ## Key folders
-- `git_managment/` — git workflow and commit guidance
+- `git_management/` — git workflow and commit guidance
 - `user_requests/` — live user-facing request intake and follow-up, including repo improvement requests
 - `user_specs/` — agreed user-visible specs and feature definitions
 - `communication_protocol/` — approved shorthand, formatting, and tokens

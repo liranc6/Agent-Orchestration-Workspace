@@ -12,6 +12,5 @@
 - Refined `user_specs/repo-improvements.md` with acceptance criteria
 
 ## Next steps
-- Review active docs for any remaining inconsistencies or missing guidance
 - Verify the repo improvement workflow in `user_requests/`, `tasks/`, and `user_specs/`
-- Commit the changes and close the task when complete
+- Archive the closed request and task under `archive/`

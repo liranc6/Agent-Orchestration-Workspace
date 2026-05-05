@@ -5,7 +5,7 @@
 - Use this file first.
 
 ## Folders
-- `git_managment/` = git workflow and commit guidance
+- `git_management/` = git workflow and commit guidance
 - `user_requests/` = user request intake and user-team chat
 - `user_specs/` = user-facing product specs
 - `msgs/` = internal team chat only
@@ -39,7 +39,7 @@
 - Use `user_requests/` for new requests and follow-up.
 - For every new request, also create a `msgs/YYYYMMDD-<topic>/README.md` internal discussion thread.
 - For repo improvements, open a request under `user_requests/` and track it in `tasks/`.
-- Review `git_managment/commit_msg_conventions.md` and follow it for all commit messages.
+- Review `git_management/commit_msg_conventions.md` and follow it for all commit messages.
 - If only one agent is active, use `msgs/` to simulate team roles internally with communication protocol syntax.
 - Use `decisions` and `glossary` as needed.
 - Only use `specs` when you need technical detail.
