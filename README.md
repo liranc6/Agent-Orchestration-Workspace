@@ -1,53 +1,83 @@
-# Agent Orchestration Workspace
-This repo is a living developer tool for a single developer operating a virtual AI team.
-It is designed as an agent orchestration workspace a developer can add to their own environment and use to instruct the agent team to deliver tasks.
-Use this workspace to intake requests, coordinate the team, track work clearly, and improve the repo itself.
+# Agent Orchestration Workspace (AOW)
+> **AI-Native Operating System** for a developer managing a virtual team of experts.
 
-## Start here
-- `init/README.md` — onboarding and doc reading order
-- `QUICKSTART.md` — quick workspace setup and example flow
-- `dev_team/INTERACTION_PROTOCOL.md` — how the agent experts work together
-- `communication_protocol/README.md` — messaging style and tokens
-- `workflow/README.md` — request handling and handoff process
+## 🚀 TL;DR: "The Virtual Team in a Box"
+This workspace transforms **High-Level Chat Intent** into **Structured Engineering Artifacts**. 
+- **Recruit** a team of experts (PM, UX, Dev, QA) into your project.
+- **Automate** the management overhead (tasks, specs, logs).
+- **Scale** your productivity by delegating 90% of coordination to the AI.
 
-## Single-agent prefix prompt
-Copy and paste the prompt below, then append:
+---
 
-TASK:
-<insert task here>
+## 🧭 Navigation for Quick Skimming
 
-```text
-You are a single AI agent simulating a virtual team of experts to deliver a task. Follow the workspace process strictly:
-- Mandatory Step 1: Read the repo docs (init/README.md, QUICKSTART.md, and INTERACTION_PROTOCOL.md) to understand your environment.
-- Phase 1 (Intake): Use `Expert Ambiguity Analyst` and `Expert Product Manager` to refine `user_requests/`.
-- Phase 2 (Planning): Use `Planner` and `Orchestrator` to create `specs/` and `tasks/`.
-- Phase 3 (Execution): Consult the `dev_team/CONSULTANCY_MAP.md` to identify and invoke the right experts (e.g., DevOps, QA, Reviewer).
-- Traceability: Maintain `msgs/` for internal logic, log all expert consultations in `tasks/`, and use role-play labels (e.g. ORCHESTRATOR, PLANNER).
-- Delivery: Provide a final review summary of what was done, why, and future improvements.
+| For Executives (The "Why") | For Developers (The "How") | For Agents (The "Engine") |
+| :--- | :--- | :--- |
+| [Value Proposition](#-value-proposition) | [Quick Installation](#-installation) | [Mandatory Onboarding](init/README.md) |
+| [Workflow Lifecycle](#-how-it-works) | [Start Here](#-start-here) | [Op-Urgency Protocol](communication_protocol/README.md) |
 
-Then continue with:
+---
 
-TASK:
-<insert task here>
+## 💎 Value Proposition
+- **Chat-First Paradigm**: Tell the AI "Add a feature" and watch it update `tasks/`, `specs/`, and `msgs/` automatically.
+- **Total Traceability**: Real-time SITREPs and audit logs in `tasks/`.
+- **Zero Cleanup**: AI manages its own "hygiene" (pruning logs, archiving closed work).
+
+---
+
+## 🛠 Installation: "Recruit Your Team" (30 Seconds)
+AOW is designed as a **Git Submodule** to live inside your existing app.
+
+```bash
+# Add the team to your project
+git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
 ```
 
-## Repo improvement workflow
-- Create improvement requests in `user_requests/YYYYMMDD-<topic>/README.md`.
-- Track active work in `tasks/YYYYMMDD-<topic>.md`.
-- Capture user-facing requirements in `user_specs/`.
-- Record internal decisions and process details in `specs/`.
-- Archive completed work in `archive/`.
+*Alternatively, click **"Use this template"** on GitHub to start a new project from scratch.*
 
-## Helpful files
-- `CONTRIBUTING.md` — contributor guidance for repo workflow, request handling, and git usage
+---
 
-## Key folders
-- `git_management/` — git workflow and commit guidance
-- `user_requests/` — live user-facing request intake and follow-up, including repo improvement requests
-- `user_specs/` — agreed user-visible specs and feature definitions
-- `communication_protocol/` — approved shorthand, formatting, and tokens
-- `workflow/` — process rules and handoff steps
-- `msgs/` — internal team chat only
-- `tasks/` — work items, statuses, and progress tracking for repo changes
-- `decisions/` — formal decisions and reasoning
-- `specs/` — technical/internal documentation and implementation notes
+## ⚙️ How it Works (The Workflow)
+1. **INTAKE**: You provide intent in chat. AI refines requirements in [user_requests/](Agent-Orchestration-Workspace/user_requests/).
+2. **PLAN**: AI creates [tasks/](Agent-Orchestration-Workspace/tasks/) and technical [specs/](Agent-Orchestration-Workspace/specs/).
+3. **BUILD**: Virtual experts (Dev, DevOps) execute implementation.
+4. **VAL**: Reviewers and QA validate against acceptance criteria.
+
+---
+
+## 🧠 The Dual-Language Engine
+- **Human Jargon**: [docs_human_readable/](docs_human_readable/README.md) — Full-prose docs for your onboarding.
+- **AI Jargon**: [communication_protocol/](communication_protocol/README.md) — "Op-Urgency" compressed symbols to maximize AI memory and speed.
+
+---
+
+## 📍 Start Here
+- [init/README.md](init/README.md) — **Step-by-step onboarding.**
+- [QUICKSTART.md](QUICKSTART.md) — Fast workspace setup.
+- [dev_team/INTERACTION_PROTOCOL.md](dev_team/INTERACTION_PROTOCOL.md) — How the experts work.
+
+---
+
+## 🤝 Join the Mission: Open Source Contribution
+We are building the future of **AI-Mediated Software Engineering**, and the **Agent Orchestration Workspace (AOW)** is a 100% Open Source community project. Whether you are a programmer, an AI researcher, or a process enthusiast, we want your help.
+
+### Why contribute to AOW?
+*   **Pioneer the Paradigm**: Help us refine the patterns of how humans and AI teams collaborate.
+*   **Build the "Engine"**: Contribute to the [Op-Urgency Protocol](communication_protocol/README.md) and internal workflows.
+*   **Expand the Experts**: Develop and share new [Agent Roles](dev_team/README.md) for specialized tasks.
+
+**Ready to jump in?** Check out [CONTRIBUTING.md](CONTRIBUTING.md) and help us build the "Virtual Team" that scales everyone's productivity.
+
+---
+
+## �🤖 Single-Agent Prefix Prompt (Copy/Paste)
+```text
+You are a single AI agent simulating a virtual team of experts. Follow the workspace process strictly:
+- Mandatory Step 1: Read init/README.md, QUICKSTART.md, and dev_team/INTERACTION_PROTOCOL.md.
+- Phase 1 (Intake): Use Expert Ambiguity Analyst and Expert Product Manager.
+- Phase 2 (Planning): Use Planner and Orchestrator to create specs/ and tasks/.
+- Phase 3 (Execution): Consult dev_team/CONSULTANCY_MAP.md.
+- Traceability: Maintain msgs/ internal jargon and tasks/ status.
+
+TASK: <insert task here>
+```

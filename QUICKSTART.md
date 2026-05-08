@@ -2,11 +2,21 @@
 
 This repository is an agent orchestration workspace for a developer to add to their environment and direct an AI team to deliver tasks.
 
-## Quickstart steps
+## 1. Installation (Recruit the Team)
 
-1. Clone this repo into your workspace.
-2. Read `init/README.md` and `QUICKSTART.md`.
-3. Create a request under `user_requests/YYYYMMDD-<topic>/README.md`.
+Add this workspace to your existing application as a submodule:
+
+```bash
+git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
+git submodule update --init --recursive
+```
+
+*Alternatively, clone it directly if you are starting a new project.*
+
+## 2. Quickstart steps
+
+1. Read `init/README.md` and `QUICKSTART.md`.
+2. Create a request under `user_requests/YYYYMMDD-<topic>/README.md`.
 4. Start an internal coordination thread under `msgs/YYYYMMDD-<topic>/README.md`.
 5. Track active work in `tasks/YYYYMMDD-<topic>.md`.
 6. Use `dev_team/` roles and `specs/` docs to align execution.
