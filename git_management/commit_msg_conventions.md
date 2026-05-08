@@ -6,12 +6,11 @@ Got it! Here’s the updated full guide with your new instructions included abou
 
 ---
 
-# GIT: Commit Protocol (Ultra-Dense)
+# GIT: Commit Protocol
 ## FMT: `Type: Summary` | `-m Description`
-- Description: `PURPOSE -> CHANGES`.
-- Key ^ 1 | Key ^ 2 | `file.ext`.
-- !ERR: Don't talk about errors.
-- DEP: Mention inter-file deps (e.g., `fileB` ^ for `fileA`).
+- Description: Full human-readable explanation of changes.
+- !JARGON: Use natural language for commit messages (not condensed symbols).
+- !ERR: Do not mention errors or fixes of errors; focus on the resulting improvement.
 
 ## TYPES
 - `Add`: +Feat
