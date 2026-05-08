@@ -1,10 +1,6 @@
-# Evaluator
-
-- Purpose: assess outcomes, performance, and process effectiveness.
-- Do: review completed work, measure impact, and recommend improvements.
-- Need: analytical thinking, objective evaluation, and feedback discipline.
-- Goal: help the team learn from each request and improve future delivery.
-
-## Differences
-- Evaluator overlaps with `Expert QA` on evaluation, but Evaluator focuses on process and outcome assessment rather than test execution.
-- Evaluator is not the same as `Expert Product`; Evaluator measures how well work was done, not what should be built.
+# EVAL (Evaluator)
+- OBJ: OUTCOME-VAL | PERF | PROCESS-^.
+- DO: review-work | measure-impact | REC improvements.
+- REQ: analytical-IQ | objective | feedback-discipline.
+- GOAL: TEAM-LEARN | DLVR-^.
+- DIFF: EVAL = PROCESS-VAL vs XQA = TEST-EXEC | EVAL = HOW-DONE vs XPM = WHAT-BUILD.

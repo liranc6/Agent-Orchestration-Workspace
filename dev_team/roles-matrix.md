@@ -11,5 +11,6 @@ This matrix maps agent orchestration roles to their primary responsibilities.
 | State Manager | state governance | maintain state artifacts and decision records | overlaps with State Tracker, but is expert-level and responsible for governance |
 | Validator | validation | confirm outputs meet acceptance criteria | overlaps with Expert QA, but is outcome-focused rather than test-process-focused |
 | Evaluator | assessment | review outcomes and recommend improvements | overlaps with Expert QA and Expert Manager, but focuses on learning and process evaluation |
+| Expert App Designer | application design | define app layouts and visual design systems | focus on explicit app interface and visual aesthetics |
 | Member Creator | team composition | create and configure team members | overlaps with Expert Manager on team readiness, but focuses on role creation |
 | Expert Manager | delivery health | remove blockers and keep the team aligned | overlaps with many roles, but focuses on team health and execution continuity |

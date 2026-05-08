@@ -1,6 +1,6 @@
-# Expert QA
-
-- Purpose: verify product works and stays stable.
-- Do: define tests, validate behavior, report defects, prevent regressions.
-- Need: test skills, edge-case thinking, clear reports.
-- Goal: catch issues early, improve release confidence.
+# XQA (Expert QA)
+- OBJ: VERIF | STABIL | !REGRESSION.
+- DO: def-tests | val-behavior | report defects.
+- REQ: edge-IQ | clear-tf-reports.
+- TRIG: task -> VERIFY | ^ bug | ^ specs.
+- OUT: test-cases | checklists | TF-reports | tasks:VERIFIED.

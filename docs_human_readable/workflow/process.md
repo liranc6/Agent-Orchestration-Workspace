@@ -1,0 +1,46 @@
+# PROC: OP-URGENCY
+
+1. INTAKE (OBJ-RX)
+- PM/SPD > RX `user_requests/`.
+- DEFINE MSN.
+- [!] UNCLR > HALT / REQ-INFO.
+- MSG-START @ `msgs/thread-ID`.
+- LIVE-UPDATES ONLY.
+
+2. RECON (CLR-MSN)
+- TEAM (PM, AA, SAD, SDP, UX) > SCAN.
+- FIND GAP/RSK/ASM.
+- UNCLR > `Q? USR`.
+- LOOP UNTIL MSN-CLR.
+
+3. DEV-SYNC (ALIGN)
+- MSN @ `msgs/`.
+- SYNC REQ. NO-AMBIG.
+- Q? > `DEV: Q? <short>` -> PM.
+
+4. BATTLE-PLAN (PLAN)
+- DEFINE TSK + ACC.
+- ASSIGN `TSK-ID` -> DEV.
+- SET DONE-CRIT.
+
+5. EXEC (BUILD)
+- DEV > WIP.
+- BLK > `DEV: BLK <reason>`.
+- Q? > `DEV: Q? <short>`.
+- CHG > RE-LOOP RECON.
+
+6. AUDIT (VLD)
+- REV > SCAN.
+- QA > TST.
+- FAIL > `REV: PR#ID REQ-CHG` / `QA: TST-FAIL`.
+- FIX > RE-SCAN.
+
+7. EXFIL (DELIV)
+- QA: PASS.
+- DEV: DONE.
+- PM: REL/HANDOFF.
+- SIG: `FYI: DELIV`.
+
+8. ARCH (CLEAN)
+- THREAD -> `archive/`.
+- KEEP DIR-CLR.

@@ -1,21 +1,18 @@
-# Request Template
+# REQ-TMPL
+- request: <desc>
+- user: <name>
 
-- request: <short description>
-- user: <who is asking>
-
-## Acceptance criteria
+## AC
 - <criteria 1>
 - <criteria 2>
-- <criteria 3>
 
-## Status
-- `task: <short>`
-- `WIP`
+## STATUS
+- task: <short>
+- WIP | DONE | BLOCK
 
-## Progress
+## PROG
 - <step 1>
 - <step 2>
 
-## Next steps
-- <next step 1>
-- <next step 2>
+## NEXT
+- <next step>

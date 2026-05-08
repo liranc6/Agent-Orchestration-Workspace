@@ -1,8 +1,16 @@
-# Message Frequency
+# Message Frequency: Operational Urgency
 
-- Purpose: define when and how often to update `msgs/` threads and related docs.
+- Purpose: Maximize operational tempo while minimizing token footprint.
 
-## When to update
+## Rule: Military Brevity
+- **Dense Notation**: Only use symbols and acronyms defined in `format.md` and `acronyms.md`.
+- **Zero Filler**: Delete all articles (a, an, the) and conjugation (is, are, was).
+- **Snapshot Logic**: Messages should read like a medical chart or radio Sitrep.
+- **Link-Heavy**: If an explanation takes >1 line, move it to `specs/` or `notes/`.
+
+## Snapshot Update Rule
+- Updates only at `HVT` (High Value Task) milestones.
+- Batch multiple role outputs into a single SITREP to save file-header tokens.
 - Add a new message for each meaningful progress step, decision, question, or block.
 - Update the thread when work changes state: `WIP`, `BLOCK`, `ACK`, or `DONE`.
 - Do not leave the thread idle as a single summary at the end.

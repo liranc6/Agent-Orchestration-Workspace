@@ -1,0 +1,25 @@
+# TERMS
+
+- `init/` = ONBOARD
+- `msgs/` = LIVE-CHAT
+- `workflow/` = PROC-RULE / H-OFF
+- `comm_protocol/` = SH-HAND / FORMAT
+- `tasks/` = WORK-ITEM / STAT
+- `decisions/` = FORMAL-DECIS
+- `archive/` = CLOSED
+- `glossary/` = TERMS / ACRONYM
+- `dev_team/` = ROLE / SKILL
+- `user_requests/` = INTAKE / USR-TEAM-CHAT
+- `user_specs/` = USR-PROD-SPEC
+- `specs/` = TECH-SPEC / IMPL-DOC
+- `WIP` = WORK IN PROG
+- `BLOCK` = TIC / BLKD
+- `Q?` = QUERY
+- `ACK` = ACKNOWLEDGED
+- `FYI` = FOR YOUR INFO
+- `ETA` = ESTIMATE
+- `PTAL` = PLS L-LOOK
+- `SGTM` = SND GOOD
+- `NI` = NEED INFO
+- `ND` = NEED DECIS
+- `CFM` = CONFIRM

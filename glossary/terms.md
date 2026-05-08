@@ -1,25 +1,23 @@
-# Terms
-
-- `init/` = onboarding start point
-- `msgs/` = live chat only
-- `workflow/` = process rules and handoff steps
-- `communication_protocol/` = approved shorthand and format
-- `tasks/` = actual work items and status
-- `decisions/` = formal decisions
-- `archive/` = closed items
-- `glossary/` = terms and acronyms
-- `dev_team/` = roles and skills
-- `user_requests/` = user request intake and user-team chat
-- `user_specs/` = user-facing product specs
-- `specs/` = detailed technical and implementation documentation
-- `WIP` = work in progress
-- `BLOCK` = blocked
-- `Q?` = question
-- `ACK` = acknowledged
-- `FYI` = for your info
-- `ETA` = estimate
-- `PTAL` = please take a look
-- `SGTM` = sounds good to me
-- `NI` = need info
-- `ND` = need decision
-- `CFM` = confirm
+# GLOSSARY: DICT
+- `init/`: ONBOARD.
+- `msgs/`: LIVE-SYNC.
+- `workflow/`: RULES/FLOW.
+- `comm_proto/`: OP-URGENCY FMT.
+- `tasks/`: WORK/STATUS.
+- `decisions/`: DECISION-HX.
+- `archive/`: CLOSED.
+- `dev_team/`: ROLES/SKILLS.
+- `user_req/`: INTAKE/USER-CHAT.
+- `user_spec/`: USER-AC.
+- `specs/`: TECH-TECH.
+- `WIP`: WIP.
+- `BLOCK`: BLOCKED/TIC.
+- `Q?`: QUERY.
+- `ACK`: ACK.
+- `FYI`: INFO.
+- `ETA`: EST.
+- `PTAL`: REVIEW-REQ.
+- `SGTM`: OK.
+- `NI`: NEED-INFO.
+- `ND`: NEED-DECISION.
+- `CFM`: CONFIRM.

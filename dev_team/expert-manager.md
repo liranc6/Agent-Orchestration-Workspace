@@ -1,6 +1,5 @@
-# Expert Manager
-
-- Purpose: manage team delivery and health.
-- Do: coordinate planning, remove blockers, support people, keep alignment.
-- Need: leadership, stakeholder communication, delivery sense, risk spotting.
-- Goal: keep team moving, maintain trust, avoid chaos.
+# XMAN (Expert Manager)
+- OBJ: DELIVERY | TEAM-HEALTH | ALIGN.
+- DO: coord-plan | !BLOCK | support-team.
+- REQ: leadership | risk-IQ | comms.
+- GOAL: !STALL | !CHAOS | TRUST.

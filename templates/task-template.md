@@ -1,17 +1,14 @@
-# Task Template
+# TSK-TMPL
+- task: <desc>
+- status: WIP | DONE | BLOCK
+- owner: <ROLE>
 
-- task: <short description>
-- status: WIP
-- owner: <role or name>
+## WORK
+- <item 1>
+- <item 2>
 
-## Work
-- <work item 1>
-- <work item 2>
+## CONSULT-LOG
+- <ROLE> | value: <val>
 
-## Notes
-- <note 1>
-- <note 2>
-
-## Next steps
-- <next step 1>
-- <next step 2>
+## NEXT
+- <step>

@@ -1,48 +1,9 @@
-# Process
-
-1. Request intake
-- `PM` or `Senior Product` reads request from `user_requests/`.
-- Capture mission.
-- If unclear, stop and clarify.
-- Reply in `user_requests/` for user-facing questions.
-- Start a `msgs/` thread for internal team alignment for every new request.
-- Keep the thread active and append status updates as the team works, not only at the end.
-
-2. Clarify mission
-- `PM`, `Ambiguity Analyst`, `Senior Agent Dev`, `Senior Dev`, `UX` review.
-- Find assumptions, gaps, risks.
-- If unclear: `Q? user` + recommendation.
-- Repeat until mission is clear.
-
-3. Developer alignment
-- Share clarified mission in `msgs/`.
-- Confirm no new technical ambiguity.
-- If devs have questions: `DEV: Q? <short>` to `PM`.
-- `PM` asks user again if needed.
-
-4. Plan and scope
-- Define tasks and acceptance.
-- Assign `task:` to devs.
-- Confirm `DONE` criteria.
-
-5. Build
-- `DEV` works, sends `WIP`.
-- If blocked: `DEV: BLOCK <reason>`.
-- If new question: `DEV: Q? <short>`.
-- If requirements change, repeat clarity loop.
-
-6. Review and validate
-- `REVIEW` inspects.
-- `QA` tests.
-- If issue: `REVIEW: PR#<id> changes needed` or `QA: TEST FAIL`.
-- Fix and recheck.
-
-7. Delivery
-- `QA: TEST PASS`.
-- `DEV`: `DONE`.
-- `PM`/`OPS` release / handoff.
-- `FYI: delivered`.
-
-8. Archive
-- Move closed thread or task to `archive/`.
-- Keep active folders clean.
+# FLOW: Op-Urgency Process
+1. INTAKE: @user_requests -> XPM/SPRD read mission | !CLEAR -> Q? user | ^ msgs/ thread (LIVE).
+2. CLARIFY: XPM + XAA + SPDP + XAD review | r/o assumptions/risks | !CLEAR -> Q? user + REC.
+3. SYNC: msgs/ -> SPDP/JDP alignment | devs Q? -> XPM | !STALL.
+4. PLAN: PLAN -> def tasks | ^ specs | assign task:DEV | def DONE.
+5. BUILD: DEV -> WIP | !BLOCK -> reason | Q? msgs | req ^ -> goto 2.
+6. VERIF: XCR review (PR#) | XQA test (TF/TP) | TF -> goto 5.
+7. DLVR: TP => DONE | XPM/XDM release | FYI: delivered.
+8. ARCH: DONE -> archive/ | !CLEAN folders.
