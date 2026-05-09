@@ -1,11 +1,8 @@
 # Agent Orchestration Workspace (AOW)
-> **AI-Native Operating System** for a developer managing a virtual team of experts.
+> **Recruit a disciplined AI delivery team into your repo** — phased planning, explicit protocols, and file-based traceability.
 
 ## 🚀 TL;DR: "The Virtual Team in a Box"
-This workspace transforms **High-Level Chat Intent** into **Structured Engineering Artifacts**. 
-- **Recruit** a team of experts (PM, UX, Dev, QA) into your project.
-- **Automate** the management overhead (tasks, specs, logs).
-- **Scale** your productivity by delegating 90% of coordination to the AI.
+Most AI tools sell **agents or autonomy**. AOW sells **control**. Instead of fighting with opaque chat histories, AOW provides a repeatable **Engineering Operating System** that transforms high-level intent into auditable engineering artifacts.
 
 ---
 
@@ -26,21 +23,27 @@ This workspace transforms **High-Level Chat Intent** into **Structured Engineeri
 ---
 
 ## 🎯 Positioning: Why AOW?
-AOW isn't just another agent framework; it's a **Managed Delivery Ecosystem**.
+AOW isn't just another agent framework; it's a **Managed Delivery Ecosystem** designed for developers who lead AI teams rather than just using AI assistants.
 
 ### How We Differentiate
 | Feature | Agent Frameworks (CrewAI/AutoGen) | AI Coder Apps (Devin/Cursor) | **AOW Workspace** |
 | :--- | :--- | :--- | :--- |
-| **Focus** | Building individual agents | Autonomous code generation | **End-to-end process governance** |
-| **Integration** | External library API | Standalone application / IDE | **Repo-Native (Git Submodule)** |
+| **Focus** | "Build your own system" | "Let the agent drive" | **"You drive; the team executes"** |
+| **Integration** | External library API | Standalone app / IDE | **Repo-Native (Git Submodule)** |
 | **Traceability** | Transient logs | Opaque chat history | **File-based persistent memory** |
 | **Governance** | None (Ad-hoc) | Model-driven | **Protocol-driven (Explicit Rules)** |
 
+### The "Five Pillars" of AOW
+1. **Repo-Native & Portable**: Lives inside your target project as a version-pinned Git submodule. Standardize workflows across many repos without rewriting prompts.
+2. **Process > Prompts > Code**: A structured intake → planning → execution pipeline that makes outcomes consistent and repeatable.
+3. **First-Class Governance**: "Mandatory Step 1" + Interaction Protocols create an explicit behavioral contract, reducing "rogue AI" drift.
+4. **Auditable Traceability**: `user_requests/`, `specs/`, and `tasks/` create a durable trail. Executives and engineers can review *what* was decided and *why*.
+5. **Human-Managed Team**: Designed for a human leader driving expert agents, fitting perfectly into real-org constraints like review and compliance.
+
 ### The "Sell" for Developers
-- **Process Over Code**: Instead of fighting with prompts, you use a battle-tested **Engineering Operating System**.
-- **Portable Team**: Recruit the same high-performing team into any project via `git submodule`.
+- **Stop Prompt Spaghetti**: Use phases, roles, and functional artifacts instead of one-shot prayers.
+- **Portable Infrastructure**: Recruit the same high-performing team into any project via `git submodule`.
 - **Context-Density**: Save up to 40% on token costs using our proprietary **Op-Urgency AI Jargon**.
-- **Human-in-the-Loop by Design**: You lead the team via a formal **Interaction Protocol**, ensuring the AI never goes "rogue."
 
 ---
 
