@@ -10,14 +10,14 @@ Most AI tools sell **agents or autonomy**. AOW sells **control**. Instead of fig
 
 | For Executives (The "Why") | For Developers (The "How") | For Agents (The "Engine") |
 | :--- | :--- | :--- |
-| [Value Proposition](#-value-proposition) | [Quick Installation](#-installation) | [Mandatory Onboarding](init/README.md) |
-| [Workflow Lifecycle](#-how-it-works) | [Start Here](#-start-here) | [Op-Urgency Protocol](communication_protocol/README.md) |
+| [Value Proposition](#-value-proposition) | [Quick Installation](#-installation) | [Mandatory Onboarding](process/init/README.md) |
+| [Workflow Lifecycle](#-how-it-works) | [Start Here](#-start-here) | [Op-Urgency Protocol](process/communication_protocol/README.md) |
 
 ---
 
 ## 💎 Value Proposition
-- **Chat-First Paradigm**: Tell the AI "Add a feature" and watch it update `tasks/`, `specs/`, and `msgs/` automatically.
-- **Total Traceability**: Real-time SITREPs and audit logs in `tasks/`.
+- **Chat-First Paradigm**: Tell the AI "Add a feature" and watch it update `workspace/tasks/`, `workspace/specs/`, and `workspace/msgs/` automatically.
+- **Total Traceability**: Real-time SITREPs and audit logs in `workspace/tasks/`.
 - **Zero Cleanup**: AI manages its own "hygiene" (pruning logs, archiving closed work).
 
 ---
@@ -37,7 +37,7 @@ AOW isn't just another agent framework; it's a **Managed Delivery Ecosystem** de
 1. **Repo-Native & Portable**: Lives inside your target project as a version-pinned Git submodule. Standardize workflows across many repos without rewriting prompts.
 2. **Process > Prompts > Code**: A structured intake → planning → execution pipeline that makes outcomes consistent and repeatable.
 3. **First-Class Governance**: "Mandatory Step 1" + Interaction Protocols create an explicit behavioral contract, reducing "rogue AI" drift.
-4. **Auditable Traceability**: `user_requests/`, `specs/`, and `tasks/` create a durable trail. Executives and engineers can review *what* was decided and *why*.
+4. **Auditable Traceability**: `workspace/user_requests/`, `workspace/specs/`, and `workspace/tasks/` create a durable trail. Executives and engineers can review *what* was decided and *why*.
 5. **Human-Managed Team**: Designed for a human leader driving expert agents, fitting perfectly into real-org constraints like review and compliance.
 
 ### The "Sell" for Developers
@@ -60,23 +60,23 @@ git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
 ---
 
 ## ⚙️ How it Works (The Workflow)
-1. **INTAKE**: You provide intent in chat. AI refines requirements in [user_requests/](Agent-Orchestration-Workspace/user_requests/).
-2. **PLAN**: AI creates [tasks/](Agent-Orchestration-Workspace/tasks/) and technical [specs/](Agent-Orchestration-Workspace/specs/).
+1. **INTAKE**: You provide intent in chat. AI refines requirements in [workspace/user_requests/](workspace/user_requests/).
+2. **PLAN**: AI creates [workspace/tasks/](workspace/tasks/) and technical [workspace/specs/](workspace/specs/).
 3. **BUILD**: Virtual experts (Dev, DevOps) execute implementation.
 4. **VAL**: Reviewers and QA validate against acceptance criteria.
 
 ---
 
 ## 🧠 The Dual-Language Engine
-- **Human Jargon**: [docs_human_readable/](docs_human_readable/README.md) — Full-prose docs for your onboarding.
-- **AI Jargon**: [communication_protocol/](communication_protocol/README.md) — "Op-Urgency" compressed symbols to maximize AI memory and speed.
+- **Human Jargon**: [docs/docs_human_readable/](docs/docs_human_readable/) — Full-prose docs for your onboarding.
+- **AI Jargon**: [process/communication_protocol/](process/communication_protocol/README.md) — "Op-Urgency" compressed symbols to maximize AI memory and speed.
 
 ---
 
 ## 📍 Start Here
-- [init/README.md](init/README.md) — **Step-by-step onboarding.**
+- [process/init/README.md](process/init/README.md) — **Step-by-step onboarding.**
 - [QUICKSTART.md](QUICKSTART.md) — Fast workspace setup.
-- [dev_team/INTERACTION_PROTOCOL.md](dev_team/INTERACTION_PROTOCOL.md) — How the experts work.
+- [process/dev_team/INTERACTION_PROTOCOL.md](process/dev_team/INTERACTION_PROTOCOL.md) — How the experts work.
 
 ---
 
@@ -85,8 +85,8 @@ We are building the future of **AI-Mediated Software Engineering**, and the **Ag
 
 ### Why contribute to AOW?
 *   **Pioneer the Paradigm**: Help us refine the patterns of how humans and AI teams collaborate.
-*   **Build the "Engine"**: Contribute to the [Op-Urgency Protocol](communication_protocol/README.md) and internal workflows.
-*   **Expand the Experts**: Develop and share new [Agent Roles](dev_team/README.md) for specialized tasks.
+*   **Build the "Engine"**: Contribute to the [Op-Urgency Protocol](process/communication_protocol/README.md) and internal workflows.
+*   **Expand the Experts**: Develop and share new [Agent Roles](process/dev_team/README.md) for specialized tasks.
 
 **Ready to jump in?** Check out [CONTRIBUTING.md](CONTRIBUTING.md) and help us build the "Virtual Team" that scales everyone's productivity.
 
@@ -95,11 +95,11 @@ We are building the future of **AI-Mediated Software Engineering**, and the **Ag
 ## �🤖 Single-Agent Prefix Prompt (Copy/Paste)
 ```text
 You are a single AI agent simulating a virtual team of experts. Follow the workspace process strictly:
-- Mandatory Step 1: Read init/README.md, QUICKSTART.md, and dev_team/INTERACTION_PROTOCOL.md.
+- Mandatory Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.
 - Phase 1 (Intake): Use Expert Ambiguity Analyst and Expert Product Manager.
-- Phase 2 (Planning): Use Planner and Orchestrator to create specs/ and tasks/.
-- Phase 3 (Execution): Consult dev_team/CONSULTANCY_MAP.md.
-- Traceability: Maintain msgs/ internal jargon and tasks/ status.
+- Phase 2 (Planning): Use Planner and Orchestrator to create workspace/specs/ and workspace/tasks/
+- Phase 3 (Execution): Consult process/dev_team/CONSULTANCY_MAP.md.
+- Traceability: Maintain workspace/msgs/ internal jargon and workspace/tasks/ status.
 
 TASK: <insert task here>
 ```
