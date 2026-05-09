@@ -51,6 +51,8 @@
 ## Single-agent team simulation
 - If only one agent is available, it may play all team roles itself.
 - Use `msgs/` for internal role-based dialogue and keep user-facing content separate.
+- Start with the internal `msgs/YYYYMMDD-<topic>/README.md` thread before any implementation or refactor work.
+- Keep the `msgs/` thread updated as work progresses, then commit each coherent change after the thread reflects the decision.
 - Prefix internal messages with the active role using communication protocol syntax, for example:
   - `DEV: task: implement git guidance`
   - `REVIEW: task: check docs for clarity and consistency`

@@ -23,6 +23,9 @@
 - Team communication supports Obsidian-like folder structure and sub-threads.
 - Use `@role` or `@name` when you need direct attention.
 - If one agent is acting as multiple roles, keep internal messages in `msgs/` and use role-prefixed syntax.
+- Before any execution/edit step, open or update the matching `msgs/YYYYMMDD-<topic>/README.md` thread.
+- Use `ORCH > ACK`, `XAA > r/o`, `XPM > decision`, `PLAN > scope`, `SPDP > WIP/DONE`, `XQA > note` in that thread before implementation starts.
+- If the thread is missing, create it first; do not begin code changes before the internal coordination exists.
 
 ## No redundancy
 - Avoid filler words and articles.
