@@ -15,11 +15,11 @@ git submodule update --init --recursive
 
 ## 2. Quickstart steps
 
-1. Read `init/README.md` and `QUICKSTART.md`.
+1. Read `init/README.md`, `QUICKSTART.md`, and `docs/git_management/README.md`.
 2. Create a request under `user_requests/YYYYMMDD-<topic>/README.md`.
 3. Start an internal coordination thread under `msgs/YYYYMMDD-<topic>/README.md` before any implementation or edit work.
 4. Track active work in `tasks/YYYYMMDD-<topic>.md`.
-5. Use `dev_team/` roles and `specs/` docs to align execution.
+5. Use `dev_team/` roles, `specs/` docs, and `git_management/` guidance to align execution.
 6. Archive finished requests and tasks in `archive/`.
 
 ## Example flow

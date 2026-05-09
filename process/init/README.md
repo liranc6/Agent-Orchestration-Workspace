@@ -23,25 +23,26 @@
 1. `init/README.md`
 2. `communication_protocol/README.md`
 3. `workflow/README.md`
-4. `user_requests/README.md`
-5. `user_specs/README.md`
-6. `msgs/README.md`
-7. `tasks/README.md`
-8. `decisions/README.md`
-9. `glossary/README.md`
-10. `dev_team/README.md`
-11. `archive/README.md`
-12. `specs/README.md`
+4. `git_management/README.md`
+5. `user_requests/README.md`
+6. `user_specs/README.md`
+7. `msgs/README.md`
+8. `tasks/README.md`
+9. `decisions/README.md`
+10. `glossary/README.md`
+11. `dev_team/README.md`
+12. `archive/README.md`
+13. `specs/README.md`
 
 ## Quick start
 - Read `init` first.
-- Then read `QUICKSTART.md`, `communication_protocol`, and `workflow`.
+- Then read `QUICKSTART.md`, `communication_protocol`, `workflow`, and `git_management`.
 - After that, use `msgs` to coordinate and `tasks` to track work.
 - Use `templates/` for consistent requests, tasks, message threads, and evaluations.
 - Use `user_requests/` for new requests and follow-up.
 - For every new request, also create a `msgs/YYYYMMDD-<topic>/README.md` internal discussion thread.
 - For repo improvements, open a request under `user_requests/` and track it in `tasks/`.
-- Review `git_management/commit_msg_conventions.md` and follow it for all commit messages.
+- Review `git_management/README.md`, `git_management/commit_msg_conventions.md`, and `git_management/commit_frequency.md` before committing or pushing.
 - If only one agent is active, use `msgs/` to simulate team roles internally with communication protocol syntax.
 - Use `decisions` and `glossary` as needed.
 - Only use `specs` when you need technical detail.
