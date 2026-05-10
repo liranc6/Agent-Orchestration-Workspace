@@ -1,105 +1,209 @@
 # Agent Orchestration Workspace (AOW)
-> **Recruit a disciplined AI delivery team into your repo** — phased planning, explicit protocols, and file-based traceability.
 
-## 🚀 TL;DR: "The Virtual Team in a Box"
-Most AI tools sell **agents or autonomy**. AOW sells **control**. Instead of fighting with opaque chat histories, AOW provides a repeatable **Engineering Operating System** that transforms high-level intent into auditable engineering artifacts.
+> A structured workflow system that turns any LLM (Claude, ChatGPT, etc.) into a **controlled, role-based engineering team operating inside your repository**.
 
 ---
 
 ## 🧭 Navigation for Quick Skimming
 
-| For Executives (The "Why") | For Developers (The "How") | For Agents (The "Engine") |
-| :--- | :--- | :--- |
-| [Value Proposition](#-value-proposition) | [Quick Installation](#-installation) | [Mandatory Onboarding](process/init/README.md) |
-| [Workflow Lifecycle](#-how-it-works) | [Start Here](#-start-here) | [Op-Urgency Protocol](process/communication_protocol/README.md) |
+| For Executives (The "Why")            | For Developers (The "How")         | For Operators (The "System")                 |
+| :------------------------------------ | :--------------------------------- | :------------------------------------------- |
+| 📊 [Value Proposition](#-what-is-aow) | 🛠️ [Installation](#-installation) | ⚙️ [Workflow Engine](#-how-it-works-5-steps) |
+| 💡 [Why It Matters](#-why-aow-exists) | 🚀 [Quick Start](#-how-to-use)     | 🤖 [Agent Model](#-what-multi-agent-means)   |
+| ⚖️ [Comparison](#-how-aow-differs)    | 🧪 [Example](#-example)            | 🧩 [Workspace Structure](#-core-idea)        |
 
 ---
 
-## 💎 Value Proposition
-- **Chat-First Paradigm**: Tell the AI "Add a feature" and watch it update `workspace/tasks/`, `workspace/specs/`, and `workspace/msgs/` automatically.
-- **Total Traceability**: Real-time SITREPs and audit logs in `workspace/tasks/`.
-- **Zero Cleanup**: AI manages its own "hygiene" (pruning logs, archiving closed work).
+## 🚀 What is AOW?
+
+AOW is a **workflow layer on top of LLMs**.
+
+It replaces unstructured prompting with a controlled engineering process:
+
+> request → plan → assign roles → execute → audit in files
+
+Instead of chatting with an AI, you run a **structured engineering workflow inside your repo**.
 
 ---
 
-## 🎯 Positioning: Why AOW?
-AOW isn't just another agent framework; it's a **Managed Delivery Ecosystem** designed for developers who lead AI teams rather than just using AI assistants.
+## 🧠 Core Idea
 
-### How We Differentiate
-| Feature | Agent Frameworks (CrewAI/AutoGen) | AI Coder Apps (Devin/Cursor) | **AOW Workspace** |
-| :--- | :--- | :--- | :--- |
-| **Focus** | "Build your own system" | "Let the agent drive" | **"You drive; the team executes"** |
-| **Integration** | External library API | Standalone app / IDE | **Repo-Native (Git Submodule)** |
-| **Traceability** | Transient logs | Opaque chat history | **File-based persistent memory** |
-| **Governance** | None (Ad-hoc) | Model-driven | **Protocol-driven (Explicit Rules)** |
+AOW enforces discipline inside LLM execution:
 
-### The "Five Pillars" of AOW
-1. **Repo-Native & Portable**: Lives inside your target project as a version-pinned Git submodule. Standardize workflows across many repos without rewriting prompts.
-2. **Process > Prompts > Code**: A structured intake → planning → execution pipeline that makes outcomes consistent and repeatable.
-3. **First-Class Governance**: "Mandatory Step 1" + Interaction Protocols create an explicit behavioral contract, reducing "rogue AI" drift.
-4. **Auditable Traceability**: `workspace/user_requests/`, `workspace/specs/`, and `workspace/tasks/` create a durable trail. Executives and engineers can review *what* was decided and *why*.
-5. **Human-Managed Team**: Designed for a human leader driving expert agents, fitting perfectly into real-org constraints like review and compliance.
+* every request is planned before coding
+* work is split into roles (Dev, QA, DevOps)
+* execution follows a strict lifecycle
+* all outputs are written into repository files
 
-### The "Sell" for Developers
-- **Stop Prompt Spaghetti**: Use phases, roles, and functional artifacts instead of one-shot prayers.
-- **Portable Infrastructure**: Recruit the same high-performing team into any project via `git submodule`.
-- **Context-Density**: Save up to 40% on token costs using our proprietary **Op-Urgency AI Jargon**.
+Nothing is ephemeral. Everything is traceable.
 
 ---
 
-## 🛠 Installation: "Recruit Your Team" (30 Seconds)
-AOW is designed as a **Git Submodule** to live inside your existing app.
+## ⚙️ How It Works (5 Steps)
 
-```bash
-# Add the team to your project
+| Step | Phase      | What Happens             | Output                                 |
+| ---- | ---------- | ------------------------ | -------------------------------------- |
+| 1    | Intake     | Capture request          | `workspace/user_requests/`             |
+| 2    | Planning   | Break into specs + tasks | `workspace/specs/`, `workspace/tasks/` |
+| 3    | Team Setup | Select required roles    | Active agent roles                     |
+| 4    | Execution  | Agents implement work    | `workspace/tasks/`, `workspace/msgs/`  |
+| 5    | Validation | QA verifies results      | Completed + archived tasks             |
+
+---
+
+## 🧪 Example
+
+**Input:**
+
+> “New task: Add login system”
+
+**AOW produces:**
+
+* authentication specification
+* task breakdown
+* backend API implementation
+* frontend login UI
+* QA test suite
+* full execution log in workspace
+
+---
+
+## ⚖️ How AOW Differs
+
+| Feature         | Prompting        | Agent Frameworks (CrewAI / AutoGen) | AI Coding Tools (Cursor / Devin) | **AOW**                             |
+| --------------- | ---------------- | ----------------------------------- | -------------------------------- | ----------------------------------- |
+| Control         | Low              | Medium                              | Medium                           | **High (user-led workflow)**        |
+| Structure       | None             | User-defined                        | Hidden                           | **Built-in workflow system**        |
+| Traceability    | None             | Partial                             | Limited                          | **Full file-based audit trail**     |
+| Execution Model | One-shot prompts | Custom agents                       | Autonomous coding                | **Role-based structured execution** |
+| Persistence     | None             | Partial                             | Partial                          | **Repo-native state (workspace/)**  |
+
+---
+
+## 📦 Installation
+
+AOW is designed as a **Git submodule** inside your project:
+
+```bash id="aow-install"
 git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
 ```
 
-*Alternatively, click **"Use this template"** on GitHub to start a new project from scratch.*
+---
+
+## 🤖 How to Use
+
+1. Open Claude / ChatGPT
+2. Paste the bootstrap prompt
+3. Provide a task
+4. AOW executes full workflow inside your repo
+
+No additional infrastructure required.
 
 ---
 
-## ⚙️ How it Works (The Workflow)
-1. **INTAKE**: You provide intent in chat. AI refines requirements in [workspace/user_requests/](workspace/user_requests/).
-2. **PLAN**: AI creates [workspace/tasks/](workspace/tasks/) and technical [workspace/specs/](workspace/specs/).
-3. **BUILD**: Virtual experts (Dev, DevOps) execute implementation.
-4. **VAL**: Reviewers and QA validate against acceptance criteria.
+## 🧪 Example Workflow Output
+
+When you request a feature, AOW generates:
+
+* structured specs
+* task breakdown
+* assigned roles
+* execution logs
+* QA validation output
+
+All stored inside `workspace/`.
 
 ---
 
-## 🧠 The Dual-Language Engine
-- **Human Jargon**: [docs/docs_human_readable/](docs/docs_human_readable/) — Full-prose docs for your onboarding.
-- **AI Jargon**: [process/communication_protocol/](process/communication_protocol/README.md) — "Op-Urgency" compressed symbols to maximize AI memory and speed.
+## 🧠 What “Multi-Agent” Means
+
+Not multiple independent bots.
+
+It means:
+
+> One LLM running a structured workflow where different roles handle different parts of a single engineering pipeline.
+
+### Traditional AI:
+
+* single model does everything
+* no structure
+* no persistent state
+
+### AOW:
+
+* role separation (like a real engineering team)
+* explicit planning phase
+* structured execution pipeline
+* shared file-based memory
 
 ---
 
-## 📍 Start Here
-- [process/init/README.md](process/init/README.md) — **Step-by-step onboarding.**
-- [QUICKSTART.md](QUICKSTART.md) — Fast workspace setup.
-- [process/dev_team/INTERACTION_PROTOCOL.md](process/dev_team/INTERACTION_PROTOCOL.md) — How the experts work.
+## 🧩 Why AOW Exists
+
+Modern AI tools fail at:
+
+* structure (outputs are inconsistent)
+* traceability (no durable history)
+* governance (no enforced workflow)
+
+AOW introduces:
+
+> A repeatable engineering workflow layer on top of LLMs
 
 ---
 
-## 🤝 Join the Mission: Open Source Contribution
-We are building the future of **AI-Mediated Software Engineering**, and the **Agent Orchestration Workspace (AOW)** is a 100% Open Source community project. Whether you are a programmer, an AI researcher, or a process enthusiast, we want your help.
+## 🧭 Workspace Structure
 
-### Why contribute to AOW?
-*   **Pioneer the Paradigm**: Help us refine the patterns of how humans and AI teams collaborate.
-*   **Build the "Engine"**: Contribute to the [Op-Urgency Protocol](process/communication_protocol/README.md) and internal workflows.
-*   **Expand the Experts**: Develop and share new [Agent Roles](process/dev_team/README.md) for specialized tasks.
+AOW uses a simple, persistent file system:
 
-**Ready to jump in?** Check out [CONTRIBUTING.md](CONTRIBUTING.md) and help us build the "Virtual Team" that scales everyone's productivity.
+* `workspace/user_requests/` → incoming requests
+* `workspace/specs/` → system design
+* `workspace/tasks/` → execution plan + status
+* `workspace/msgs/` → agent communication logs
+
+Everything is stored and auditable.
 
 ---
 
-## �🤖 Single-Agent Prefix Prompt (Copy/Paste)
-```text
-You are a single AI agent simulating a virtual team of experts. Follow the workspace process strictly:
-- Mandatory Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.
-- Phase 1 (Intake): Use Expert Ambiguity Analyst and Expert Product Manager.
-- Phase 2 (Planning): Use Planner and Orchestrator to create workspace/specs/ and workspace/tasks/
-- Phase 3 (Execution): Consult process/dev_team/CONSULTANCY_MAP.md.
-- Traceability: Maintain workspace/msgs/ internal jargon and workspace/tasks/ status.
+## 💡 Why It Matters
 
-TASK: <insert task here>
-```
+Instead of:
+
+> “Ask AI → get code → lose context”
+
+You get:
+
+> “Define request → structured plan → role execution → full audit trail”
+
+This turns AI from a chat tool into a **managed engineering system**.
+
+---
+
+## 💎 Core Principle
+
+> “If you cannot trace it, you cannot trust it.”
+
+Every action is:
+
+* planned
+* assigned
+* executed
+* recorded
+
+Nothing disappears into chat history.
+
+---
+
+## 🚀 Summary
+
+AOW turns any LLM into:
+
+> a structured engineering organization operating inside your repository with enforced planning, role separation, and full execution traceability.
+
+---
+
+## 🧭 One-line takeaway
+
+AOW is not a prompt system.
+
+It is a **workflow operating system for AI-assisted engineering**.
