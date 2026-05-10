@@ -6,11 +6,13 @@
 
 ## 🧭 Navigation for Quick Skimming
 
-| For Executives (The "Why")            | For Developers (The "How")         | For Operators (The "System")                 |
-| :------------------------------------ | :--------------------------------- | :------------------------------------------- |
-| 📊 [Value Proposition](#-what-is-aow) | 🛠️ [Installation](#-installation) | ⚙️ [Workflow Engine](#-how-it-works-5-steps) |
-| 💡 [Why It Matters](#-why-aow-exists) | 🚀 [Quick Start](#-how-to-use)     | 🤖 [Agent Model](#-what-multi-agent-means)   |
-| ⚖️ [Comparison](#-how-aow-differs)    | 🧪 [Example](#-example)            | 🧩 [Workspace Structure](#-core-idea)        |
+| 🚀 Start Here (Developers)   | 🛠️ Setup                      | ⚙️ How It Works                           | 🧪 Example               |
+| :--------------------------- | :----------------------------- | :---------------------------------------- | :----------------------- |
+| [What is AOW](#-what-is-aow) | [Installation](#-installation) | [Workflow Engine](#-how-it-works-5-steps) | [Example Run](#-example) |
+
+| ⚖️ Evaluation                   | 🧠 Concept               | 📦 Structure                       |
+| :------------------------------ | :----------------------- | :--------------------------------- |
+| [Comparison](#-how-aow-differs) | [Core Idea](#-core-idea) | [Workspace](#-workspace-structure) |
 
 ---
 
@@ -18,36 +20,23 @@
 
 AOW is a **workflow layer on top of LLMs**.
 
-It replaces unstructured prompting with a controlled engineering process:
+It turns unstructured prompting into a structured engineering process:
 
 > request → plan → assign roles → execute → audit in files
 
-Instead of chatting with an AI, you run a **structured engineering workflow inside your repo**.
-
----
-
-## 🧠 Core Idea
-
-AOW enforces discipline inside LLM execution:
-
-* every request is planned before coding
-* work is split into roles (Dev, QA, DevOps)
-* execution follows a strict lifecycle
-* all outputs are written into repository files
-
-Nothing is ephemeral. Everything is traceable.
+Instead of chatting with an AI, you run a **repeatable engineering workflow inside your repo**.
 
 ---
 
 ## ⚙️ How It Works (5 Steps)
 
-| Step | Phase      | What Happens             | Output                                 |
-| ---- | ---------- | ------------------------ | -------------------------------------- |
-| 1    | Intake     | Capture request          | `workspace/user_requests/`             |
-| 2    | Planning   | Break into specs + tasks | `workspace/specs/`, `workspace/tasks/` |
-| 3    | Team Setup | Select required roles    | Active agent roles                     |
-| 4    | Execution  | Agents implement work    | `workspace/tasks/`, `workspace/msgs/`  |
-| 5    | Validation | QA verifies results      | Completed + archived tasks             |
+| Step | Phase      | What Happens                 | Output                                 |
+| ---- | ---------- | ---------------------------- | -------------------------------------- |
+| 1    | Intake     | Capture request              | `workspace/user_requests/`             |
+| 2    | Planning   | Break into specs + tasks     | `workspace/specs/`, `workspace/tasks/` |
+| 3    | Team Setup | Select roles (Dev, QA, etc.) | Active agent roles                     |
+| 4    | Execution  | Agents implement work        | `workspace/tasks/`, `workspace/msgs/`  |
+| 5    | Validation | QA verifies results          | Completed + archived tasks             |
 
 ---
 
@@ -55,7 +44,7 @@ Nothing is ephemeral. Everything is traceable.
 
 **Input:**
 
-> “New task: Add login system”
+> “Add login system”
 
 **AOW produces:**
 
@@ -64,25 +53,13 @@ Nothing is ephemeral. Everything is traceable.
 * backend API implementation
 * frontend login UI
 * QA test suite
-* full execution log in workspace
+* full execution log inside `workspace/`
 
----
-
-## ⚖️ How AOW Differs
-
-| Feature         | Prompting        | Agent Frameworks (CrewAI / AutoGen) | AI Coding Tools (Cursor / Devin) | **AOW**                             |
-| --------------- | ---------------- | ----------------------------------- | -------------------------------- | ----------------------------------- |
-| Control         | Low              | Medium                              | Medium                           | **High (user-led workflow)**        |
-| Structure       | None             | User-defined                        | Hidden                           | **Built-in workflow system**        |
-| Traceability    | None             | Partial                             | Limited                          | **Full file-based audit trail**     |
-| Execution Model | One-shot prompts | Custom agents                       | Autonomous coding                | **Role-based structured execution** |
-| Persistence     | None             | Partial                             | Partial                          | **Repo-native state (workspace/)**  |
+Everything is structured, tracked, and auditable.
 
 ---
 
 ## 📦 Installation
-
-AOW is designed as a **Git submodule** inside your project:
 
 ```bash id="aow-install"
 git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
@@ -90,14 +67,39 @@ git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
 
 ---
 
-## 🤖 How to Use
+## 🧠 Core Idea
 
-1. Open Claude / ChatGPT
-2. Paste the bootstrap prompt
-3. Provide a task
-4. AOW executes full workflow inside your repo
+AOW enforces structure inside LLM execution:
 
-No additional infrastructure required.
+* planning always happens before coding
+* work is split into explicit roles
+* execution follows a strict lifecycle
+* everything is persisted in repo files
+
+Nothing is ephemeral. Everything is traceable.
+
+---
+
+## 📁 Workspace Structure
+
+AOW uses a simple persistent system:
+
+* `workspace/user_requests/` → incoming requests
+* `workspace/specs/` → system design + decisions
+* `workspace/tasks/` → execution plan + status
+* `workspace/msgs/` → agent communication logs
+
+---
+
+## ⚖️ How AOW Differs
+
+| Feature      | Prompting | Agent Frameworks | AI Coding Tools | **AOW**                        |
+| ------------ | --------- | ---------------- | --------------- | ------------------------------ |
+| Control      | Low       | Medium           | Medium          | **High (user-led)**            |
+| Structure    | None      | User-defined     | Hidden          | **Built-in workflow system**   |
+| Traceability | None      | Partial          | Limited         | **Full file-based audit**      |
+| Execution    | One-shot  | Custom agents    | Autonomous      | **Role-based workflow engine** |
+| Persistence  | None      | Partial          | Partial         | **Repo-native state**          |
 
 ---
 
@@ -107,9 +109,9 @@ When you request a feature, AOW generates:
 
 * structured specs
 * task breakdown
-* assigned roles
+* role assignments
 * execution logs
-* QA validation output
+* QA validation results
 
 All stored inside `workspace/`.
 
@@ -123,45 +125,30 @@ It means:
 
 > One LLM running a structured workflow where different roles handle different parts of a single engineering pipeline.
 
-### Traditional AI:
+---
 
-* single model does everything
-* no structure
-* no persistent state
+## 📦 Installation (Quick Start)
 
-### AOW:
-
-* role separation (like a real engineering team)
-* explicit planning phase
-* structured execution pipeline
-* shared file-based memory
+1. Clone or add as submodule
+2. Open any LLM chat (Claude / ChatGPT)
+3. Paste bootstrap prompt
+4. Start giving tasks
 
 ---
 
-## 🧩 Why AOW Exists
+## 🧪 Example Run
 
-Modern AI tools fail at:
+**Input:**
 
-* structure (outputs are inconsistent)
-* traceability (no durable history)
-* governance (no enforced workflow)
+> “Add login system”
 
-AOW introduces:
+**System behavior:**
 
-> A repeatable engineering workflow layer on top of LLMs
-
----
-
-## 🧭 Workspace Structure
-
-AOW uses a simple, persistent file system:
-
-* `workspace/user_requests/` → incoming requests
-* `workspace/specs/` → system design
-* `workspace/tasks/` → execution plan + status
-* `workspace/msgs/` → agent communication logs
-
-Everything is stored and auditable.
+* creates specs
+* breaks into tasks
+* assigns roles
+* executes in structured steps
+* logs everything in workspace
 
 ---
 
@@ -173,9 +160,27 @@ Instead of:
 
 You get:
 
-> “Define request → structured plan → role execution → full audit trail”
+> “Request → structured plan → role execution → full audit trail”
 
-This turns AI from a chat tool into a **managed engineering system**.
+This makes AI output:
+
+* predictable
+* reviewable
+* reproducible
+
+---
+
+## ⚖️ Why AOW Exists
+
+Modern AI tools fail at:
+
+* structure (outputs are inconsistent)
+* traceability (no persistent history)
+* process control (no enforced workflow)
+
+AOW introduces:
+
+> A repeatable engineering workflow layer on top of LLMs
 
 ---
 
@@ -189,8 +194,6 @@ Every action is:
 * assigned
 * executed
 * recorded
-
-Nothing disappears into chat history.
 
 ---
 
