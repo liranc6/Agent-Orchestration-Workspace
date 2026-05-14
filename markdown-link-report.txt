@@ -1,0 +1,14 @@
+Issues found in 3 inputs. Find details below.
+
+[./docs/docs_human_readable/specs/20260508-improve-repo-spec.md]:
+[ERROR] file:///Users/liranc6/Desktop/play_with_code/expenses-app/Agent-Orchestration-Workspace/docs/docs_human_readable/specs/dev_team/INTERACTION_PROTOCOL.md (at 13:19) | File not found. Check if file exists and path is correct
+[ERROR] file:///Users/liranc6/Desktop/play_with_code/expenses-app/Agent-Orchestration-Workspace/docs/docs_human_readable/specs/dev_team/README.md (at 29:8) | File not found. Check if file exists and path is correct
+
+[./docs/docs_human_readable/tasks/20260508-improve-repo.md]:
+[ERROR] file:///Users/liranc6/Desktop/play_with_code/expenses-app/Agent-Orchestration-Workspace/docs/docs_human_readable/tasks/dev_team/CONSULTANCY_MAP.md (at 12:14) | File not found. Check if file exists and path is correct
+
+[./docs/docs_human_readable/tasks/20260508-multipage-multiuser-hosting.md]:
+[ERROR] file:///Users/liranc6/Desktop/play_with_code/expenses-app/Agent-Orchestration-Workspace/docs/docs_human_readable/tasks/specs/20260508-multipage-multiuser-hosting.md (at 3:19) | File not found. Check if file exists and path is correct
+
+🔍 1228 Total (in 525ms) 🔗 1222 Unique ✅ 60 OK 🚫 4 Errors 👻 1164 Excluded
+

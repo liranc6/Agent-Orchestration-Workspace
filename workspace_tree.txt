@@ -1,0 +1,198 @@
+.
+├── CONTRIBUTING.md
+├── docs
+│   ├── docs_human_readable
+│   │   ├── dev_team
+│   │   │   ├── CONSULTANCY_MAP.md
+│   │   │   ├── evaluator.md
+│   │   │   ├── expert-agent-reviewer.md
+│   │   │   ├── expert-ambiguity-analyst.md
+│   │   │   ├── expert-app-designer.md
+│   │   │   ├── expert-code-reviewer.md
+│   │   │   ├── expert-devops-infrastructure-engineer.md
+│   │   │   ├── expert-manager.md
+│   │   │   ├── expert-product-manager.md
+│   │   │   ├── expert-qa.md
+│   │   │   ├── expert-ux-product-designer.md
+│   │   │   ├── INTERACTION_PROTOCOL.md
+│   │   │   ├── junior-dev-programmer.md
+│   │   │   ├── member-creator.md
+│   │   │   ├── orchestrator.md
+│   │   │   ├── planner.md
+│   │   │   ├── README.md
+│   │   │   ├── roles-matrix.md
+│   │   │   ├── senior-agent-developer.md
+│   │   │   ├── senior-principal-dev-programmer.md
+│   │   │   ├── senior-product.md
+│   │   │   ├── state-manager.md
+│   │   │   ├── state-tracker.md
+│   │   │   ├── supervisor.md
+│   │   │   └── validator.md
+│   │   ├── git_management
+│   │   │   ├── commit_frequency.md
+│   │   │   ├── commit_msg_conventions.md
+│   │   │   └── README.md
+│   │   ├── glossary
+│   │   │   ├── README.md
+│   │   │   └── terms.md
+│   │   ├── init
+│   │   │   └── README.md
+│   │   ├── specs
+│   │   │   ├── 20260508-improve-repo-spec.md
+│   │   │   ├── 20260508-multipage-multiuser-hosting.md
+│   │   │   ├── agent-orchestration-guide.md
+│   │   │   ├── evaluation-cycle.md
+│   │   │   ├── README.md
+│   │   │   └── repo-improvement-process.md
+│   │   ├── tasks
+│   │   │   ├── 20260506-add-team-members.md
+│   │   │   ├── 20260506-improve-orchestration.md
+│   │   │   ├── 20260506-msgs-frequency-guideline.md
+│   │   │   ├── 20260508-add-app-designer.md
+│   │   │   ├── 20260508-improve-repo.md
+│   │   │   └── README.md
+│   │   ├── templates
+│   │   │   ├── evaluation-template.md
+│   │   │   ├── msg-thread-template.md
+│   │   │   ├── request-template.md
+│   │   │   └── task-template.md
+│   │   ├── user_requests
+│   │   │   ├── 20260506-add-team-members
+│   │   │   │   └── README.md
+│   │   │   ├── 20260506-improve-orchestration
+│   │   │   │   └── README.md
+│   │   │   ├── 20260508-add-app-designer
+│   │   │   │   └── README.md
+│   │   │   ├── 20260508-improve-repo
+│   │   │   │   └── README.md
+│   │   │   └── README.md
+│   │   ├── user_specs
+│   │   │   ├── README.md
+│   │   │   └── repo-improvements.md
+│   │   └── workflow
+│   │       ├── process.md
+│   │       └── README.md
+│   ├── git_management
+│   │   ├── commit_frequency.md
+│   │   ├── commit_msg_conventions.md
+│   │   └── README.md
+│   ├── glossary
+│   │   ├── README.md
+│   │   └── terms.md
+│   ├── reports
+│   └── templates
+│       ├── evaluation-template.md
+│       ├── msg-thread-template.md
+│       ├── request-template.md
+│       └── task-template.md
+├── expenses-app-dirs-to-remove.txt
+├── markdown-link-errors-only.txt
+├── markdown-link-report.txt
+├── process
+│   ├── communication_protocol
+│   │   ├── acronyms.md
+│   │   ├── common-phrases.md
+│   │   ├── format.md
+│   │   └── README.md
+│   ├── decisions
+│   │   └── README.md
+│   ├── dev_team
+│   │   ├── CONSULTANCY_MAP.md
+│   │   ├── evaluator.md
+│   │   ├── expert-agent-reviewer.md
+│   │   ├── expert-ambiguity-analyst.md
+│   │   ├── expert-app-designer.md
+│   │   ├── expert-code-reviewer.md
+│   │   ├── expert-devops-infrastructure-engineer.md
+│   │   ├── expert-manager.md
+│   │   ├── expert-product-manager.md
+│   │   ├── expert-qa.md
+│   │   ├── expert-ux-product-designer.md
+│   │   ├── INTERACTION_PROTOCOL.md
+│   │   ├── junior-dev-programmer.md
+│   │   ├── member-creator.md
+│   │   ├── orchestrator.md
+│   │   ├── planner.md
+│   │   ├── README.md
+│   │   ├── roles-matrix.md
+│   │   ├── senior-agent-developer.md
+│   │   ├── senior-principal-dev-programmer.md
+│   │   ├── senior-product.md
+│   │   ├── state-manager.md
+│   │   ├── state-tracker.md
+│   │   ├── supervisor.md
+│   │   └── validator.md
+│   ├── init
+│   │   └── README.md
+│   └── workflow
+│       ├── process.md
+│       └── README.md
+├── QUICKSTART.md
+├── README.md
+├── workspace
+│   ├── archive
+│   │   ├── 20260505-improve-repo-request
+│   │   │   └── README.md
+│   │   ├── 20260505-improve-repo-task.md
+│   │   └── README.md
+│   ├── msgs
+│   │   ├── 20260505-improve-repo
+│   │   │   └── README.md
+│   │   ├── 20260506-add-team-members
+│   │   │   └── README.md
+│   │   ├── 20260506-improve-orchestration
+│   │   │   └── README.md
+│   │   ├── 20260508-add-app-designer
+│   │   │   └── README.md
+│   │   ├── 20260508-improve-readme-skimmability
+│   │   │   ├── readme-os-invitation.md
+│   │   │   └── README.md
+│   │   ├── 20260508-improve-repo
+│   │   │   └── README.md
+│   │   ├── 20260508-investigate-protocol-failure
+│   │   │   └── README.md
+│   │   ├── 20260508-prep-delivery-submodule
+│   │   │   └── README.md
+│   │   ├── 20260509-link-audit-jargon
+│   │   ├── message-frequency.md
+│   │   ├── README.md
+│   │   └── single-agent-role-play.md
+│   ├── specs
+│   │   ├── 20260508-improve-repo-spec.md
+│   │   ├── agent-orchestration-guide.md
+│   │   ├── delivery-model.md
+│   │   ├── evaluation-cycle.md
+│   │   ├── README.md
+│   │   └── repo-improvement-process.md
+│   ├── tasks
+│   │   ├── 20260506-add-team-members.md
+│   │   ├── 20260506-improve-orchestration.md
+│   │   ├── 20260506-msgs-frequency-guideline.md
+│   │   ├── 20260508-add-app-designer.md
+│   │   ├── 20260508-improve-repo.md
+│   │   ├── 20260508-prep-delivery-submodule.md
+│   │   └── README.md
+│   ├── user_requests
+│   │   ├── 20260506-add-team-members
+│   │   │   └── README.md
+│   │   ├── 20260506-improve-orchestration
+│   │   │   └── README.md
+│   │   ├── 20260508-add-app-designer
+│   │   │   └── README.md
+│   │   ├── 20260508-git-sync
+│   │   │   └── README.md
+│   │   ├── 20260508-improve-readme-skimmability
+│   │   │   └── README.md
+│   │   ├── 20260508-improve-repo
+│   │   │   └── README.md
+│   │   ├── 20260508-investigate-protocol-failure
+│   │   │   └── README.md
+│   │   ├── 20260508-prep-delivery-submodule
+│   │   │   └── README.md
+│   │   └── README.md
+│   └── user_specs
+│       ├── README.md
+│       └── repo-improvements.md
+└── workspace_tree.txt
+
+52 directories, 144 files
