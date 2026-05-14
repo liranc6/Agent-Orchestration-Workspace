@@ -13,8 +13,11 @@
 4. [x] Implement Add Expense Modal logic.
 5. [x] Integrate FAB and Modal across all pages.
 6. [x] Final UI/UX polish (icons, themes).
-7. [x] Validate multi-page navigation and data persistence.
+7. [x] Fix landing page navigation links (st.page_link).
+8. [x] Validate multi-page navigation and data persistence.
 
 ## SITREP Tracking
 - 20260514-1000: ORCH > Task created. Planning complete.
 - 20260514-1100: ORCH > Implementation DONE. Multi-page + Modal LIVE.
+- 20260514-1145: DEV > User reported navigation confusion. Removed broken st.page_link and added stable sidebar instruction.
+- 20260514-1200: QA > Navigation verified. Closing task.
