@@ -15,10 +15,10 @@ This document defines how the virtual agent team interacts and when specific exp
 - **Output:** Technical spec in `specs/` and task list in `tasks/`.
 
 ### 3. Implementation
+- **Constraint:** ALL internal team synchronization in `msgs/` MUST use the **Op-Urgency** Jargon (defined in [protocol/protocol/README.md](/protocol/protocol/README.md)). Non-compliance is a protocol failure.
 - **Trigger:** Plan is approved.
 - **Experts:** `Senior Principal Dev Programmer`, `Junior Dev Programmer`, `Expert DevOps / Infrastructure Engineer`.
 - **Output:** Code changes, file creations, and technical execution.
-- **Constraint:** ALL internal team synchronization in `msgs/` MUST use the **Op-Urgency** Jargon (defined in `communication_protocol/`). Non-compliance is a protocol failure.
 
 ### 4. Quality Assurance & Review
 - **Trigger:** Implementation is complete.

@@ -5,24 +5,29 @@
 - It serves as a workspace the developer can add to their environment to orchestrate agents and deliver tasks through the team.
 - Use this file first.
 
+## CORE COMPLIANCE RULES
+- **Internal Comms:** ALL internal team synchronization in `msgs/` MUST use the **Op-Urgency** syntax (`<ROLE> > <ACTION> | <TARGET> | <STATUS> | <NOTES>`) defined in `protocol/`.
+- **Git Protocol:** ALL commits MUST follow the `Type: Summary` format defined in `git_management/`.
+
 ## Folders
 - `git_management/` = git workflow and commit guidance
 - `user_requests/` = user request intake and user-team chat
 - `user_specs/` = user-facing product specs
 - `msgs/` = internal team chat only
-- `workflow/` = process rules and handoff
-- `communication_protocol/` = shorthand and format
+- `protocol/` = externalized communication protocol (submodule)
+    - `protocol/` = shorthand and format
+    - `workflow/` = process rules and handoff
+    - `glossary/` = terms and acronyms
 - `tasks/` = work items and status
 - `decisions/` = formal decisions
 - `archive/` = closed content
-- `glossary/` = terms and acronyms
 - `dev_team/` = roles and skills
 - `specs/` = technical documentation and implementation notes
 
 ## Read order
 1. `init/README.md`
-2. `communication_protocol/README.md`
-3. `workflow/README.md`
+2. `protocol/protocol/README.md`
+3. `protocol/workflow/README.md`
 4. `git_management/README.md`
 5. `user_requests/README.md`
 6. `user_specs/README.md`
