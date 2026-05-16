@@ -99,6 +99,7 @@ Everything is structured, tracked, and auditable.
 
 ```bash id="aow-install"
 git submodule add https://github.com/liranc6/Agent-Orchestration-Workspace.git
+git submodule update --init --recursive
 ```
 
 ---
@@ -165,7 +166,7 @@ It means:
 
 ## 📦 Installation (Quick Start)
 
-1. Clone or add as submodule
+1. Clone or add as submodule (run `git submodule update --init --recursive` to pull the [Communication Protocol](protocol/))
 2. Open any LLM chat (Claude / ChatGPT)
 3. Paste bootstrap prompt
 4. Start giving tasks
