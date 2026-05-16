@@ -1,0 +1,3 @@
+[submodule "protocol"]
+	path = protocol
+	url = git@github.com:liranc6/Agents-Communication-Protocol.git
