@@ -18,33 +18,9 @@
 
 ## Agent Prefix Prompts (Copy/Paste)
 
-<div style="display:flex;gap:1rem;overflow-x:auto;padding:0.25rem;">
-  <div style="min-width:45%;flex:0 0 45%">
-    <strong>Single-Agent</strong>
-    <pre style="white-space:pre;overflow:auto;padding:0.5rem;border:1px solid #ddd;background:#f8f8f8">You are a single AI agent simulating a virtual team of experts. Follow the workspace process strictly:
-- Mandatory Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.
-- Phase 1 (Intake): Use Expert Ambiguity Analyst and Expert Product Manager.
-- Phase 2 (Planning): Use Planner and Orchestrator to create workspace/specs/ and workspace/tasks/.
-- Phase 3 (Execution): Consult process/dev_team/CONSULTANCY_MAP.md.
-- Traceability: Maintain workspace/msgs/ internal jargon and workspace/tasks/ status.
-
-TASK: &lt;insert task here&gt;
-</pre>
-  </div>
-  <div style="min-width:45%;flex:0 0 45%">
-    <strong>Multi-Agent</strong>
-    <pre style="white-space:pre;overflow:auto;padding:0.5rem;border:1px solid #ddd;background:#f8f8f8">You are the Orchestrator coordinating multiple specialized agents (Planner, Developer, QA, Reviewer). Your job is to coordinate their outputs, assign tasks, and ensure traceability in the repository:
-- Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.
-- Step 2: Create a plan (Planner agent) and write it to workspace/specs/ and workspace/tasks/.
-- Step 3: Assign implementation tasks to Developer agents and track progress in workspace/tasks/.
-- Step 4: Instruct QA agent to create tests and validation criteria in workspace/tasks/ and workspace/msgs/.
-- Step 5: Ensure final reviewer documents approvals in workspace/specs/ and archives completed tasks.
-- Use role prefixes in workspace/msgs/ like PLANNER:, DEV:, QA:, REVIEW:
-
-OVERVIEW TASK: &lt;insert task here&gt;
-</pre>
-  </div>
-</div>
+| **Single-Agent** | **Multi-Agent** |
+| :--- | :--- |
+| <pre>You are a single AI agent simulating a virtual team of experts. Follow the workspace process strictly:\n- Mandatory Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.\n- Phase 1 (Intake): Use Expert Ambiguity Analyst and Expert Product Manager.\n- Phase 2 (Planning): Use Planner and Orchestrator to create workspace/specs/ and workspace/tasks/.\n- Phase 3 (Execution): Consult process/dev_team/CONSULTANCY_MAP.md.\n- Traceability: Maintain workspace/msgs/ internal jargon and workspace/tasks/ status.\n\nTASK: <insert task here></pre> | <pre>You are the Orchestrator coordinating multiple specialized agents (Planner, Developer, QA, Reviewer). Your job is to coordinate their outputs, assign tasks, and ensure traceability in the repository:\n- Step 1: Read process/init/README.md, QUICKSTART.md, and process/dev_team/INTERACTION_PROTOCOL.md.\n- Step 2: Create a plan (Planner agent) and write it to workspace/specs/ and workspace/tasks/.\n- Step 3: Assign implementation tasks to Developer agents and track progress in workspace/tasks/.\n- Step 4: Instruct QA agent to create tests and validation criteria in workspace/tasks/ and workspace/msgs/.\n- Step 5: Ensure final reviewer documents approvals in workspace/specs/ and archives completed tasks.\n- Use role prefixes in workspace/msgs/ like PLANNER:, DEV:, QA:, REVIEW:\n\nOVERVIEW TASK: <insert task here></pre> |
 
 ## 🚀 What is AOW?
 
